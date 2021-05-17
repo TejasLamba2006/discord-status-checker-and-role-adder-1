@@ -3,7 +3,7 @@ const client = new discord.Client()
 const config = require("./config.json")
 
 //Made for Rainbow Studios
-// HAD TO REMOVE CONSOLE LOGS SORRY :(
+// HAD TO REMOVE CONSOLE LOGS SORRY :( coz of error and spamming
 
 client.on("ready", async () => {
   const startlogs = [
