@@ -2,7 +2,7 @@ const discord = require("discord.js")
 const client = new discord.Client()
 const config = require("./config.json")
 
-
+//Made for Rainbow Studios
 // HAD TO REMOVE CONSOLE LOGS SORRY :(
 
 client.on("ready", async () => {
@@ -42,3 +42,6 @@ client.on("ready", async () => {
 
 
 client.login(config.token)
+//Made for Rainbow studios
+//Steal it and get sued
+//By Tejas Lamba#1924
