@@ -19,3 +19,22 @@ config.json Example:
 
 
 ![discord.dev](https://cdn.discordapp.com/attachments/628197645537771530/843545696245252136/unknown.png)
+
+# Credits
+
+Rainbow Studios- https://discord.gg/yPN49wdqMc
+
+# Advanced code for your bot if you dont wanna make a serperate bot!
+
+```js
+client.on('presenceUpdate', async (oldPresence, newPresence) => {
+    if(oldPresence.member.user.bot || newPresence.member.user.bot) return;
+    
+    let oldState = oldPresence.activities[0]?.state
+    let newState = newPresence.activities[0]?.state
+    if(oldState === newState) return;
+    if(newState.includes("content")) {
+        newPresence.member.roles.add('role id')
+    }
+})
+```
