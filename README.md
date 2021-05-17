@@ -3,6 +3,14 @@ Check Status Of a Discord User and Give Them Roles!
 
 If you use this for your server then please join Rainbow Studios- https://discord.gg/yPN49wdqMc
 
+# Contents
+<a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#config">config.json</a>
+<a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#you-must-have-the-presence-intent-enabled">Intents</a>
+<a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#credits">Credits</a>
+<a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#advanced-code-for-your-bot-if-you-dont-wanna-make-a-serperate-bot">Advanced code for your bot</a>
+
+# Config
+
 config.json Example:
 ```json
 {
