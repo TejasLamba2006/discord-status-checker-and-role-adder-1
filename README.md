@@ -1,7 +1,7 @@
-# discord-status
+# Discord Status Checker And Role Adder
 Check Status Of a Discord User and Give Them Roles!
 
-If you use this for your server feel free to send me an invite on contact@zirobot.xyz!
+If you use this for your server then please join Rainbow Studios- https://discord.gg/yPN49wdqMc
 
 config.json Example:
 ```json
