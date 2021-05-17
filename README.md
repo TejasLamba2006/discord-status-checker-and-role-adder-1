@@ -8,6 +8,7 @@ If you use this for your server then please join Rainbow Studios- https://discor
 <a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#you-must-have-the-presence-intent-enabled">Intents</a> <br>
 <a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#credits">Credits</a> <br>
 <a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#advanced-code-for-your-bot-if-you-dont-wanna-make-a-serperate-bot">Advanced code for your bot</a> <br>
+<a href="https://github.com/TeamRainbowDevs/discord-status-checker-and-role-adder#running-the-bot">How to run the bot?</a>
 
 # Config
 
@@ -46,3 +47,32 @@ client.on('presenceUpdate', async (oldPresence, newPresence) => {
     }
 })
 ```
+
+# Running The Bot
+
+Open console and install discord.js
+```yaml
+npm install discord.js
+```
+or
+```yaml
+npm install
+```
+**BOTH WILL WORK**
+
+**Next step**
+Filling `config.json`
+
+**Starting the bot**
+
+Run 
+```yaml
+npm start
+```
+OR
+```yaml
+node index.js
+```
+**BOTH WILL WORK**
+
+
